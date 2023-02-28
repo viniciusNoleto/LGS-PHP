@@ -1,2 +1,2 @@
-# LGS_PHP
+# LGS
 Log Generator for Server [PHP]
