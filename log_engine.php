@@ -17,7 +17,7 @@
 
         // Write Log
         fwrite($log, "\n$time || $author: $header\n"); // Write header
-        if(count($body) > 0) foreach($body as $line) fwrite($log, "> $text\n"); // Write Body List
+        if(count($body) > 0) foreach($body as $line) fwrite($log, "> $line\n"); // Write Body List
 
         // Close .log file
         fclose($log);
