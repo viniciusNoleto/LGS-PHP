@@ -8,7 +8,7 @@
     function write_log(String $sector, String $author, String $header, Array $body=[], String $dir="log"){
 
         // Create Log by date and sector
-        $log = fopen("$dir/$sector - ".date("d-m-Y").'.log','a');
+        $log = fopen("$dir/$sector - ".date("Y-m-a").'.log','a');
 
         // Get actual time
         $time = new DateTime();
